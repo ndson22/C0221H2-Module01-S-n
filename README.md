@@ -18,4 +18,4 @@
 	- Luôn có kế hoạch cụ thể 
 	- Tập đặt mục tiêu theo tiêu chuẩn SMART
 	- Xác định mức độ quan trọng của công việc, việc nào ưu tiên làm trước việc nào làm sau
-	- Có thái độ tốt với công việcs
+	- Có thái độ tốt với công việcssdsadasdsa
