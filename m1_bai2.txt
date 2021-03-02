@@ -1,0 +1,7 @@
+### Module 1
+	#Bài 2
+	- Nhập môn tư duy lập trình:
+	+ Để chạy các chương trình cần có các câu lệnh
+	+ Các câu lệnh chạy lần lượt theo thứ tự
+	+ Trong các lệnh có thể sử dụng vòng lặp để giảm bớt các bước lặp lại
+	+ Có thể sử dụng câu lệnh điều kiện 
