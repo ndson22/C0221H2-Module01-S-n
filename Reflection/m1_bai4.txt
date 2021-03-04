@@ -1,0 +1,40 @@
+### Module 01
+	#Bài 4
+	GIT & HTML:
+	1. GIT
+	- là công cụ quản lý mã nguồn VCS hệ thống quản lý các phiên bản mã nguồn
+	- quản lý phân tán
+	- Snapshot:
+		+ là toàn bộ mã nguồn tại một điểm
+		+ các snapshot như là lát cắt được tạo ra trong quá trình phát triển
+		+ Lập trình viên quyết định lúc nào thì tạo một snapshot & có thể quay lại một snapshot bất kỳ
+	- Commit:
+		+ Tạo snapshot
+		+Một commit bao gồm các thông tin
+		 	Thay đổi ở các file so với trước
+		 	Một tham chiếu đến commit trước nó (gọi là commit cha)
+		 	Một mã băm đại diện, thường có dạng như
+	- Responsitory:
+		+ là nơi chứa toàn bộ mã nguồn
+		+ bao gồm toàn bộ các file và lịch sử của các file đó
+		+ chứa tất cả các commit
+		Có 2 loại repository:
+			 Local Repository: Ở trên máy của lập trình viên
+			 Remote Repository: Ở trên một máy chủ chia sẻ
+	- Clone: Sao chép một Remote Repository về máy của dev
+	- Pull: Cập nhật mã nguồn từ một Remote Repository về Local Repository
+	- Push: Đẩy mã nguồn từ Local Repository lên Remote Repository
+		Các câu lệnh cơ bản của Git
+ 			git clone: Sao chép một repository
+			git init: Khởi tạo một repository
+			git add: Đưa các file vào trong vùng staged
+			git commit: Ghi nhận các thay đổi
+			git push: Đưa các thay đổi từ local repository lên remote repository
+	2. HTML
+		- HTML là ngôn ngữ được sử dụng để tạo ra các Webpage
+		HTML là viết tắt của chữ Hypertext Markup Language (Ngôn ngữ Đánh dấu Siêu Văn bản)
+		- Các thẻ HTML
+			+ Một file HTML được lưu với đuôi file là .htm hoặc .html
+			+ Một tài liệu HTML được tạo thành từ các thẻ, mỗi thẻ HTM bao gồm thẻ mở và thẻ đóng
+			+ Một thẻ trong HTML có thể có thêm các thuộc tính
+
