@@ -13,7 +13,7 @@
 		+Một commit bao gồm các thông tin
 		 	Thay đổi ở các file so với trước
 		 	Một tham chiếu đến commit trước nó (gọi là commit cha)
-		 	Một mã băm đại diện, thường có dạng như
+		 	Một mã băm đại diện
 	- Responsitory:
 		+ là nơi chứa toàn bộ mã nguồn
 		+ bao gồm toàn bộ các file và lịch sử của các file đó
