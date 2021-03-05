@@ -1,0 +1,27 @@
+### Module 01
+	#Bai 5
+	HTML Form & Table
+	1. Form
+		- cho phép người dùng nhập dữ liệu và gửi về server
+		- <form action="" methor ="" name=""> </form>
+			+ action: Nơi gửi dữ liệu về
+		- <fieldset> & <legend> dùng để nhóm các trường dữ liệu trong form
+		- method post & get:
+			+ get: dữ liệu được hiển thị trên thanh địa chỉ của trình duyệt
+					không nên sử dụng để gửi dữ liệu nhạy cảm
+					thường được sử dụng để gửi các dữ liệu nhỏ (nếu nhiều quá sẽ k gửi được)
+			+ post: dữ liệu gửi đi không hiển thị trên thanh trình duyệt
+					được sử dụng để gửi các dữ liệu nhạy cảm
+					không hạn chế dung lượng gửi đi
+		- <input type="">
+			type: text, number, email, checkbox, radio...
+		- <select> & <option>: down-list
+		- textarea: được sử dụng để nhập dữ liệu text lớn
+	2. Table
+		- được sử dụng để thể hiện dữ liệu dưới dạng hàng và cột
+		- <table>: khai báo một bảng
+		- <tr> Khai báo một dòng
+		- <th> Khai báo một ô tiêu đề
+		- <td> Khai báo một ô dữ liệu
+		- Ô chiếm nhiều cột: sử dụng thuộc tính cols
+		- Ô chiếm nhiều dòng: sử dụng thuộc tính rows	
