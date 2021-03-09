@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+</head>
+<body>
+    <input type="number" id="number1" />
+    <input type="number" id="number2"  />
+    <br>
+    <button onclick="addition()">Addition(+)</button>
+    <button onclick="subtraction()">Subtraction(-)</button>
+    <button onclick="multiplication()">Multiplication(x)</button>
+    <button onclick="division()">Division(/)</button>
+    <p id="return_result"></p>
+<script>
+    var x = document.getElementById("number1");
+    var y = document.getElementById("number2");
+      function addition(){
+          // var x = document.getElementById("number1").value;
+          // var y = document.getElementById("number2").value;
+          a = parseFloat(x.value);
+          b = parseFloat(y.value);
+          result = a+b;
+          document.getElementById("return_result").innerHTML = "Result Addition:" + " " + result;
+      }
+      function subtraction(){
+          var x = document.getElementById("number1").value;
+          var y = document.getElementById("number2").value;
+          a = parseFloat(x);
+          b = parseFloat(y);
+          result = a-b;
+          document.getElementById("return_result").innerHTML = "Result Addition:" + " " + result;
+      }
+    function multiplication(){
+        var x = document.getElementById("number1").value;
+        var y = document.getElementById("number2").value;
+        a = parseFloat(x);
+        b = parseFloat(y);
+        result = a*b;
+        document.getElementById("return_result").innerHTML = "Result Addition:" + " " + result;
+    }
+    function division(){
+        var x = document.getElementById("number1").value;
+        var y = document.getElementById("number2").value;
+        a = parseFloat(x);
+        b = parseFloat(y);
+        result = a/b;
+        document.getElementById("return_result").innerHTML = "Result Addition:" + " " + result;
+    }
+</script>
+</body>
+</html>

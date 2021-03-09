@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Amount</th>
+            <th>From Currency</th>
+            <th>To Currency</th>
+            <th></th>
+        </tr>
+        <tr>
+            <td><input type="number" id="soluong" value="1"></td>
+            <td>
+                <select name="Currency1" id="Currency1" >
+                    <option value="23000">Vietnamdong</option>
+                    <option value="6000">Nhandante</option>
+                    <option value="2000">YenNhat</option>
+                    <option value="1">USD</option>
+                </select>
+            </td>
+            <td>
+                <select name="Currency2" id="Currency2"">
+                    <option value="23000">Vietnamdong</option>
+                    <option value="6000">Nhandante</option>
+                    <option value="2000">YenNhat</option>
+                    <option value="1">USD</option>
+                </select>
+            </td>
+            <td>
+                <button onclick="convertcurren()">Convert</button>
+            </td>
+        </tr>
+    </table>
+    <p id="return_result">dsadasd</p>
+    <script>
+        function convertcurren(){
+            let from = document.getElementById("Currency1").value;
+            let to = document.getElementById("Currency2").value;
+            let soluong = document.getElementById("soluong").value;
+            result = soluong*to/from;
+            document.getElementById("return_result").innerHTML = 'result = ' + result;
+        }
+
+</body>
+</html>
